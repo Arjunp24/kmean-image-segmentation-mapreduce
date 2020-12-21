@@ -1,0 +1,6 @@
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/DataRow.java
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/KMeansParallelMapper.java
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/KMeansParallelCombiner.java
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/KMeansParallel.java
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/ParallelKeys.java
+/home/ubuntu/project-projectgroup13/DistributedKMeans/src/main/java/KMeans_MR/KMeansParallelReducer.java

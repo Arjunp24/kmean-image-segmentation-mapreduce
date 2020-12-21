@@ -1,0 +1,253 @@
+2020-12-14 00:00:51,872 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/input/params.txt' for reading
+2020-12-14 00:00:52,100 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/input/ClusterValues.txt' for reading
+2020-12-14 00:00:52,300 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-54-150.ec2.internal/172.31.54.150:8032
+2020-12-14 00:00:54,183 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-14 00:00:54,199 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-12-14 00:00:54,202 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 29dbe82f1ecfd8384b89f1a32e5e2d9e5dfd7724]
+2020-12-14 00:00:54,570 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-14 00:00:54,847 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607903935490_0001
+2020-12-14 00:00:55,438 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607903935490_0001
+2020-12-14 00:00:55,655 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-54-150.ec2.internal:20888/proxy/application_1607903935490_0001/
+2020-12-14 00:00:55,656 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607903935490_0001
+2020-12-14 00:01:07,813 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607903935490_0001 running in uber mode : false
+2020-12-14 00:01:07,814 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-14 00:01:24,914 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-12-14 00:01:30,940 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2020-12-14 00:01:36,964 INFO org.apache.hadoop.mapreduce.Job (main):  map 16% reduce 0%
+2020-12-14 00:01:42,989 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2020-12-14 00:01:49,014 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2020-12-14 00:01:55,038 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2020-12-14 00:02:01,064 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-14 00:02:07,088 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2020-12-14 00:02:13,113 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2020-12-14 00:02:19,137 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2020-12-14 00:02:25,160 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2020-12-14 00:02:31,182 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 0%
+2020-12-14 00:02:37,203 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 0%
+2020-12-14 00:02:43,225 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2020-12-14 00:02:48,252 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-14 00:03:00,314 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 4%
+2020-12-14 00:03:03,328 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 8%
+2020-12-14 00:03:04,331 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 12%
+2020-12-14 00:03:08,346 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 42%
+2020-12-14 00:03:09,351 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-14 00:03:10,355 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2020-12-14 00:03:13,370 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2020-12-14 00:03:15,380 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 81%
+2020-12-14 00:03:16,384 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2020-12-14 00:03:17,389 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-14 00:03:18,396 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607903935490_0001 completed successfully
+2020-12-14 00:03:18,498 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=457385
+		FILE: Number of bytes written=6554653
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=96
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=14917
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=26
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4692864
+		Total time spent by all reduces in occupied slots (ms)=35931648
+		Total time spent by all map tasks (ms)=97768
+		Total time spent by all reduce tasks (ms)=374288
+		Total vcore-milliseconds taken by all map tasks=97768
+		Total vcore-milliseconds taken by all reduce tasks=374288
+		Total megabyte-milliseconds taken by all map tasks=150171648
+		Total megabyte-milliseconds taken by all reduce tasks=1149812736
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=13000000
+		Map output bytes=325592398
+		Map output materialized bytes=9876
+		Input split bytes=96
+		Combine input records=13001618
+		Combine output records=2047
+		Reduce input groups=429
+		Reduce shuffle bytes=9876
+		Reduce input records=429
+		Reduce output records=429
+		Spilled Records=2476
+		Shuffled Maps =26
+		Failed Shuffles=0
+		Merged Map outputs=26
+		GC time elapsed (ms)=9480
+		CPU time spent (ms)=144090
+		Physical memory (bytes) snapshot=11369103360
+		Virtual memory (bytes) snapshot=124413157376
+		Total committed heap usage (bytes)=11467227136
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=14917
+2020-12-14 00:03:18,636 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00000' for reading
+2020-12-14 00:03:18,703 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00001' for reading
+2020-12-14 00:03:18,760 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00002' for reading
+2020-12-14 00:03:18,808 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00003' for reading
+2020-12-14 00:03:18,864 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00004' for reading
+2020-12-14 00:03:18,924 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00005' for reading
+2020-12-14 00:03:18,978 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00006' for reading
+2020-12-14 00:03:19,029 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00007' for reading
+2020-12-14 00:03:19,084 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00008' for reading
+2020-12-14 00:03:19,148 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00009' for reading
+2020-12-14 00:03:19,189 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00010' for reading
+2020-12-14 00:03:19,228 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00011' for reading
+2020-12-14 00:03:19,279 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00012' for reading
+2020-12-14 00:03:19,325 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00013' for reading
+2020-12-14 00:03:19,365 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00014' for reading
+2020-12-14 00:03:19,444 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00015' for reading
+2020-12-14 00:03:19,480 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00016' for reading
+2020-12-14 00:03:19,515 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00017' for reading
+2020-12-14 00:03:19,551 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00018' for reading
+2020-12-14 00:03:19,588 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00019' for reading
+2020-12-14 00:03:19,635 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00020' for reading
+2020-12-14 00:03:19,685 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00021' for reading
+2020-12-14 00:03:19,724 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00022' for reading
+2020-12-14 00:03:19,773 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00023' for reading
+2020-12-14 00:03:19,814 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00024' for reading
+2020-12-14 00:03:19,851 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00025' for reading
+2020-12-14 00:03:20,563 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-54-150.ec2.internal/172.31.54.150:8032
+2020-12-14 00:03:20,769 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-14 00:03:20,842 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-14 00:03:20,889 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607903935490_0002
+2020-12-14 00:03:20,931 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607903935490_0002
+2020-12-14 00:03:20,941 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-54-150.ec2.internal:20888/proxy/application_1607903935490_0002/
+2020-12-14 00:03:20,941 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607903935490_0002
+2020-12-14 00:03:29,111 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607903935490_0002 running in uber mode : false
+2020-12-14 00:03:29,112 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-14 00:03:46,326 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-12-14 00:03:52,350 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2020-12-14 00:03:58,372 INFO org.apache.hadoop.mapreduce.Job (main):  map 17% reduce 0%
+2020-12-14 00:04:04,394 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2020-12-14 00:04:10,420 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2020-12-14 00:04:16,441 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2020-12-14 00:04:22,464 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-14 00:04:28,484 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2020-12-14 00:04:34,505 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2020-12-14 00:04:40,525 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2020-12-14 00:04:46,544 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2020-12-14 00:04:52,563 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 0%
+2020-12-14 00:04:58,583 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 0%
+2020-12-14 00:05:04,602 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2020-12-14 00:05:08,615 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-14 00:05:21,660 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 4%
+2020-12-14 00:05:23,670 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-14 00:05:24,674 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 23%
+2020-12-14 00:05:25,677 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 35%
+2020-12-14 00:05:26,682 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 38%
+2020-12-14 00:05:27,686 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 58%
+2020-12-14 00:05:28,691 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 65%
+2020-12-14 00:05:29,698 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 73%
+2020-12-14 00:05:31,709 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 81%
+2020-12-14 00:05:33,716 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2020-12-14 00:05:35,723 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2020-12-14 00:05:36,726 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-14 00:05:36,731 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607903935490_0002 completed successfully
+2020-12-14 00:05:36,762 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=459354
+		FILE: Number of bytes written=6563205
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=96
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=14918
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=26
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=4663488
+		Total time spent by all reduces in occupied slots (ms)=29887872
+		Total time spent by all map tasks (ms)=97156
+		Total time spent by all reduce tasks (ms)=311332
+		Total vcore-milliseconds taken by all map tasks=97156
+		Total vcore-milliseconds taken by all reduce tasks=311332
+		Total megabyte-milliseconds taken by all map tasks=149231616
+		Total megabyte-milliseconds taken by all reduce tasks=956411904
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=13000000
+		Map output bytes=325557677
+		Map output materialized bytes=9964
+		Input split bytes=96
+		Combine input records=13001616
+		Combine output records=2045
+		Reduce input groups=429
+		Reduce shuffle bytes=9964
+		Reduce input records=429
+		Reduce output records=429
+		Spilled Records=2474
+		Shuffled Maps =26
+		Failed Shuffles=0
+		Merged Map outputs=26
+		GC time elapsed (ms)=9211
+		CPU time spent (ms)=143030
+		Physical memory (bytes) snapshot=11314225152
+		Virtual memory (bytes) snapshot=124425691136
+		Total committed heap usage (bytes)=11457789952
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=14918
+2020-12-14 00:05:36,857 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00000' for reading
+2020-12-14 00:05:36,909 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00001' for reading
+2020-12-14 00:05:36,958 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00002' for reading
+2020-12-14 00:05:37,003 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00003' for reading
+2020-12-14 00:05:37,056 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00004' for reading
+2020-12-14 00:05:37,109 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00005' for reading
+2020-12-14 00:05:37,167 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00006' for reading
+2020-12-14 00:05:37,218 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00007' for reading
+2020-12-14 00:05:37,262 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00008' for reading
+2020-12-14 00:05:37,311 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00009' for reading
+2020-12-14 00:05:37,362 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00010' for reading
+2020-12-14 00:05:37,397 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00011' for reading
+2020-12-14 00:05:37,431 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00012' for reading
+2020-12-14 00:05:37,480 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00013' for reading
+2020-12-14 00:05:37,511 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00014' for reading
+2020-12-14 00:05:37,549 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00015' for reading
+2020-12-14 00:05:37,583 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00016' for reading
+2020-12-14 00:05:37,671 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00017' for reading
+2020-12-14 00:05:37,723 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00018' for reading
+2020-12-14 00:05:37,772 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00019' for reading
+2020-12-14 00:05:37,812 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00020' for reading
+2020-12-14 00:05:37,860 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00021' for reading
+2020-12-14 00:05:37,894 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00022' for reading
+2020-12-14 00:05:37,926 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00023' for reading
+2020-12-14 00:05:37,964 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00024' for reading
+2020-12-14 00:05:38,002 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://urv-proj/k4-29_large/part-r-00025' for reading
+2020-12-14 00:05:38,546 INFO com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream (main): close closed:false s3://urv-proj/k4-29_large/ClusterValues.txt

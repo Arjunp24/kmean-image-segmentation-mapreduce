@@ -1,0 +1,1458 @@
+2020-12-13 17:12:09,399 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:12:11,225 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:12:11,261 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-12-13 17:12:11,265 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 29dbe82f1ecfd8384b89f1a32e5e2d9e5dfd7724]
+2020-12-13 17:12:11,936 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:12:12,196 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0001
+2020-12-13 17:12:12,887 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0001
+2020-12-13 17:12:12,994 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0001/
+2020-12-13 17:12:12,995 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0001
+2020-12-13 17:12:22,174 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0001 running in uber mode : false
+2020-12-13 17:12:22,175 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:12:33,248 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:12:41,286 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2020-12-13 17:12:42,290 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:12:42,296 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0001 completed successfully
+2020-12-13 17:12:42,398 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677165
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=91
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=372816
+		Total time spent by all reduces in occupied slots (ms)=1722816
+		Total time spent by all map tasks (ms)=7767
+		Total time spent by all reduce tasks (ms)=17946
+		Total vcore-milliseconds taken by all map tasks=7767
+		Total vcore-milliseconds taken by all reduce tasks=17946
+		Total megabyte-milliseconds taken by all map tasks=11930112
+		Total megabyte-milliseconds taken by all reduce tasks=55130112
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=513
+		CPU time spent (ms)=7510
+		Physical memory (bytes) snapshot=1895026688
+		Virtual memory (bytes) snapshot=17208320000
+		Total committed heap usage (bytes)=1935671296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=91
+2020-12-13 17:12:42,527 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:12:42,595 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:12:42,650 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:12:43,078 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:12:43,167 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:12:43,278 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:12:43,321 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0002
+2020-12-13 17:12:43,356 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0002
+2020-12-13 17:12:43,362 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0002/
+2020-12-13 17:12:43,362 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0002
+2020-12-13 17:12:53,445 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0002 running in uber mode : false
+2020-12-13 17:12:53,445 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:13:02,494 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:13:09,522 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2020-12-13 17:13:11,530 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:13:11,536 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0002 completed successfully
+2020-12-13 17:13:11,563 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677293
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=322608
+		Total time spent by all reduces in occupied slots (ms)=1595712
+		Total time spent by all map tasks (ms)=6721
+		Total time spent by all reduce tasks (ms)=16622
+		Total vcore-milliseconds taken by all map tasks=6721
+		Total vcore-milliseconds taken by all reduce tasks=16622
+		Total megabyte-milliseconds taken by all map tasks=10323456
+		Total megabyte-milliseconds taken by all reduce tasks=51062784
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=491
+		CPU time spent (ms)=6710
+		Physical memory (bytes) snapshot=1832980480
+		Virtual memory (bytes) snapshot=17237499904
+		Total committed heap usage (bytes)=1887436800
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:13:11,729 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:13:11,799 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:13:11,849 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:13:12,096 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:13:12,183 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:13:12,278 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:13:12,307 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0003
+2020-12-13 17:13:12,324 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0003
+2020-12-13 17:13:12,328 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0003/
+2020-12-13 17:13:12,328 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0003
+2020-12-13 17:13:22,407 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0003 running in uber mode : false
+2020-12-13 17:13:22,407 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:13:31,454 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:13:39,484 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:13:39,490 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0003 completed successfully
+2020-12-13 17:13:39,518 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=328320
+		Total time spent by all reduces in occupied slots (ms)=1436928
+		Total time spent by all map tasks (ms)=6840
+		Total time spent by all reduce tasks (ms)=14968
+		Total vcore-milliseconds taken by all map tasks=6840
+		Total vcore-milliseconds taken by all reduce tasks=14968
+		Total megabyte-milliseconds taken by all map tasks=10506240
+		Total megabyte-milliseconds taken by all reduce tasks=45981696
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=507
+		CPU time spent (ms)=6720
+		Physical memory (bytes) snapshot=1863729152
+		Virtual memory (bytes) snapshot=17246695424
+		Total committed heap usage (bytes)=1885339648
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:13:39,623 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:13:39,682 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:13:39,733 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:13:39,973 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:13:40,056 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:13:40,145 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:13:40,178 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0004
+2020-12-13 17:13:40,202 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0004
+2020-12-13 17:13:40,205 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0004/
+2020-12-13 17:13:40,205 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0004
+2020-12-13 17:13:49,289 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0004 running in uber mode : false
+2020-12-13 17:13:49,290 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:13:58,332 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:14:06,361 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2020-12-13 17:14:07,364 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:14:07,370 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0004 completed successfully
+2020-12-13 17:14:07,401 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=95
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=331152
+		Total time spent by all reduces in occupied slots (ms)=1518528
+		Total time spent by all map tasks (ms)=6899
+		Total time spent by all reduce tasks (ms)=15818
+		Total vcore-milliseconds taken by all map tasks=6899
+		Total vcore-milliseconds taken by all reduce tasks=15818
+		Total megabyte-milliseconds taken by all map tasks=10596864
+		Total megabyte-milliseconds taken by all reduce tasks=48592896
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=526
+		CPU time spent (ms)=7400
+		Physical memory (bytes) snapshot=1834217472
+		Virtual memory (bytes) snapshot=17234132992
+		Total committed heap usage (bytes)=1878523904
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=95
+2020-12-13 17:14:07,485 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:14:07,528 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:14:07,581 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:14:07,803 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:14:07,870 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:14:07,931 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:14:07,968 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0005
+2020-12-13 17:14:07,989 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0005
+2020-12-13 17:14:07,996 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0005/
+2020-12-13 17:14:07,996 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0005
+2020-12-13 17:14:16,059 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0005 running in uber mode : false
+2020-12-13 17:14:16,059 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:14:26,106 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:14:33,132 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:14:34,141 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0005 completed successfully
+2020-12-13 17:14:34,168 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677313
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=93
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=339360
+		Total time spent by all reduces in occupied slots (ms)=1418016
+		Total time spent by all map tasks (ms)=7070
+		Total time spent by all reduce tasks (ms)=14771
+		Total vcore-milliseconds taken by all map tasks=7070
+		Total vcore-milliseconds taken by all reduce tasks=14771
+		Total megabyte-milliseconds taken by all map tasks=10859520
+		Total megabyte-milliseconds taken by all reduce tasks=45376512
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=514
+		CPU time spent (ms)=6690
+		Physical memory (bytes) snapshot=1884385280
+		Virtual memory (bytes) snapshot=17251565568
+		Total committed heap usage (bytes)=1895301120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=93
+2020-12-13 17:14:34,266 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:14:34,315 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:14:34,363 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:14:34,604 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:14:34,697 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:14:34,768 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:14:34,797 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0006
+2020-12-13 17:14:34,814 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0006
+2020-12-13 17:14:34,826 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0006/
+2020-12-13 17:14:34,827 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0006
+2020-12-13 17:14:42,899 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0006 running in uber mode : false
+2020-12-13 17:14:42,899 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:14:51,979 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:14:59,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:14:59,014 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0006 completed successfully
+2020-12-13 17:14:59,050 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677305
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=95
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=320064
+		Total time spent by all reduces in occupied slots (ms)=1415712
+		Total time spent by all map tasks (ms)=6668
+		Total time spent by all reduce tasks (ms)=14747
+		Total vcore-milliseconds taken by all map tasks=6668
+		Total vcore-milliseconds taken by all reduce tasks=14747
+		Total megabyte-milliseconds taken by all map tasks=10242048
+		Total megabyte-milliseconds taken by all reduce tasks=45302784
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=522
+		CPU time spent (ms)=6610
+		Physical memory (bytes) snapshot=1865998336
+		Virtual memory (bytes) snapshot=17237803008
+		Total committed heap usage (bytes)=1943011328
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=95
+2020-12-13 17:14:59,135 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:14:59,178 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:14:59,238 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:14:59,460 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:14:59,536 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:14:59,604 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:14:59,629 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0007
+2020-12-13 17:14:59,849 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0007
+2020-12-13 17:14:59,852 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0007/
+2020-12-13 17:14:59,852 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0007
+2020-12-13 17:15:07,972 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0007 running in uber mode : false
+2020-12-13 17:15:07,973 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:15:17,171 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:15:25,200 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:15:26,208 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0007 completed successfully
+2020-12-13 17:15:26,240 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677313
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=92
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=332592
+		Total time spent by all reduces in occupied slots (ms)=1430112
+		Total time spent by all map tasks (ms)=6929
+		Total time spent by all reduce tasks (ms)=14897
+		Total vcore-milliseconds taken by all map tasks=6929
+		Total vcore-milliseconds taken by all reduce tasks=14897
+		Total megabyte-milliseconds taken by all map tasks=10642944
+		Total megabyte-milliseconds taken by all reduce tasks=45763584
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=503
+		CPU time spent (ms)=7160
+		Physical memory (bytes) snapshot=2049314816
+		Virtual memory (bytes) snapshot=17298214912
+		Total committed heap usage (bytes)=2055733248
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=92
+2020-12-13 17:15:26,328 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:15:26,376 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:15:26,421 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:15:26,711 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:15:26,784 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:15:26,854 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:15:26,890 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0008
+2020-12-13 17:15:26,917 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0008
+2020-12-13 17:15:26,927 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0008/
+2020-12-13 17:15:26,927 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0008
+2020-12-13 17:15:35,026 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0008 running in uber mode : false
+2020-12-13 17:15:35,026 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:15:45,138 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:15:52,163 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:15:53,172 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0008 completed successfully
+2020-12-13 17:15:53,199 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677301
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=95
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=340320
+		Total time spent by all reduces in occupied slots (ms)=1388256
+		Total time spent by all map tasks (ms)=7090
+		Total time spent by all reduce tasks (ms)=14461
+		Total vcore-milliseconds taken by all map tasks=7090
+		Total vcore-milliseconds taken by all reduce tasks=14461
+		Total megabyte-milliseconds taken by all map tasks=10890240
+		Total megabyte-milliseconds taken by all reduce tasks=44424192
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=499
+		CPU time spent (ms)=6930
+		Physical memory (bytes) snapshot=1768062976
+		Virtual memory (bytes) snapshot=17239343104
+		Total committed heap usage (bytes)=1793064960
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=95
+2020-12-13 17:15:53,373 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:15:53,414 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:15:53,457 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:15:53,733 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:15:53,958 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:15:54,033 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:15:54,065 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0009
+2020-12-13 17:15:54,284 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0009
+2020-12-13 17:15:54,287 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0009/
+2020-12-13 17:15:54,287 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0009
+2020-12-13 17:16:03,357 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0009 running in uber mode : false
+2020-12-13 17:16:03,357 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:16:12,395 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:16:20,422 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:16:20,427 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0009 completed successfully
+2020-12-13 17:16:20,458 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677313
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=323664
+		Total time spent by all reduces in occupied slots (ms)=1408512
+		Total time spent by all map tasks (ms)=6743
+		Total time spent by all reduce tasks (ms)=14672
+		Total vcore-milliseconds taken by all map tasks=6743
+		Total vcore-milliseconds taken by all reduce tasks=14672
+		Total megabyte-milliseconds taken by all map tasks=10357248
+		Total megabyte-milliseconds taken by all reduce tasks=45072384
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=507
+		CPU time spent (ms)=6660
+		Physical memory (bytes) snapshot=1946390528
+		Virtual memory (bytes) snapshot=17248542720
+		Total committed heap usage (bytes)=2034237440
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:16:20,541 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:16:20,584 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:16:20,621 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:16:20,853 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:16:20,922 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:16:20,990 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:16:21,024 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0010
+2020-12-13 17:16:21,237 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0010
+2020-12-13 17:16:21,239 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0010/
+2020-12-13 17:16:21,239 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0010
+2020-12-13 17:16:29,298 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0010 running in uber mode : false
+2020-12-13 17:16:29,298 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:16:38,337 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:16:45,361 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:16:46,369 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0010 completed successfully
+2020-12-13 17:16:46,396 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=95
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=318336
+		Total time spent by all reduces in occupied slots (ms)=1395552
+		Total time spent by all map tasks (ms)=6632
+		Total time spent by all reduce tasks (ms)=14537
+		Total vcore-milliseconds taken by all map tasks=6632
+		Total vcore-milliseconds taken by all reduce tasks=14537
+		Total megabyte-milliseconds taken by all map tasks=10186752
+		Total megabyte-milliseconds taken by all reduce tasks=44657664
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=506
+		CPU time spent (ms)=5350
+		Physical memory (bytes) snapshot=1733140480
+		Virtual memory (bytes) snapshot=17209384960
+		Total committed heap usage (bytes)=1821900800
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=95
+2020-12-13 17:16:46,483 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:16:46,529 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:16:46,561 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:16:46,792 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:16:46,886 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:16:46,954 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:16:47,023 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0011
+2020-12-13 17:16:47,034 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0011
+2020-12-13 17:16:47,043 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0011/
+2020-12-13 17:16:47,043 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0011
+2020-12-13 17:16:55,106 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0011 running in uber mode : false
+2020-12-13 17:16:55,106 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:17:04,144 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:17:12,171 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:17:13,180 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0011 completed successfully
+2020-12-13 17:17:13,207 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677313
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=333072
+		Total time spent by all reduces in occupied slots (ms)=1439904
+		Total time spent by all map tasks (ms)=6939
+		Total time spent by all reduce tasks (ms)=14999
+		Total vcore-milliseconds taken by all map tasks=6939
+		Total vcore-milliseconds taken by all reduce tasks=14999
+		Total megabyte-milliseconds taken by all map tasks=10658304
+		Total megabyte-milliseconds taken by all reduce tasks=46076928
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=523
+		CPU time spent (ms)=8160
+		Physical memory (bytes) snapshot=1790382080
+		Virtual memory (bytes) snapshot=17267908608
+		Total committed heap usage (bytes)=1795686400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:17:13,332 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:17:13,380 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:17:13,424 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:17:13,642 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:17:13,748 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:17:13,890 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:17:13,917 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0012
+2020-12-13 17:17:13,933 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0012
+2020-12-13 17:17:13,942 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0012/
+2020-12-13 17:17:13,942 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0012
+2020-12-13 17:17:22,042 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0012 running in uber mode : false
+2020-12-13 17:17:22,043 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:17:32,087 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:17:39,111 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:17:40,119 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0012 completed successfully
+2020-12-13 17:17:40,147 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=95
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=329280
+		Total time spent by all reduces in occupied slots (ms)=1414848
+		Total time spent by all map tasks (ms)=6860
+		Total time spent by all reduce tasks (ms)=14738
+		Total vcore-milliseconds taken by all map tasks=6860
+		Total vcore-milliseconds taken by all reduce tasks=14738
+		Total megabyte-milliseconds taken by all map tasks=10536960
+		Total megabyte-milliseconds taken by all reduce tasks=45275136
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=499
+		CPU time spent (ms)=6770
+		Physical memory (bytes) snapshot=1854554112
+		Virtual memory (bytes) snapshot=17235742720
+		Total committed heap usage (bytes)=1907884032
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=95
+2020-12-13 17:17:40,293 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:17:40,337 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:17:40,379 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:17:40,583 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:17:40,665 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:17:40,732 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:17:40,807 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0013
+2020-12-13 17:17:40,822 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0013
+2020-12-13 17:17:40,828 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0013/
+2020-12-13 17:17:40,828 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0013
+2020-12-13 17:17:48,887 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0013 running in uber mode : false
+2020-12-13 17:17:48,887 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:17:57,927 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:18:05,954 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:18:06,963 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0013 completed successfully
+2020-12-13 17:18:06,996 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677313
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=93
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=331584
+		Total time spent by all reduces in occupied slots (ms)=1435488
+		Total time spent by all map tasks (ms)=6908
+		Total time spent by all reduce tasks (ms)=14953
+		Total vcore-milliseconds taken by all map tasks=6908
+		Total vcore-milliseconds taken by all reduce tasks=14953
+		Total megabyte-milliseconds taken by all map tasks=10610688
+		Total megabyte-milliseconds taken by all reduce tasks=45935616
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=569
+		CPU time spent (ms)=7200
+		Physical memory (bytes) snapshot=1865183232
+		Virtual memory (bytes) snapshot=17220751360
+		Total committed heap usage (bytes)=1922564096
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=93
+2020-12-13 17:18:07,400 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:18:07,453 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:18:07,500 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:18:07,749 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:18:07,880 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:18:07,948 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:18:07,973 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0014
+2020-12-13 17:18:07,996 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0014
+2020-12-13 17:18:08,000 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0014/
+2020-12-13 17:18:08,000 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0014
+2020-12-13 17:18:16,122 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0014 running in uber mode : false
+2020-12-13 17:18:16,123 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:18:25,240 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:18:33,269 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:18:33,283 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0014 completed successfully
+2020-12-13 17:18:33,313 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677305
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=324480
+		Total time spent by all reduces in occupied slots (ms)=1387008
+		Total time spent by all map tasks (ms)=6760
+		Total time spent by all reduce tasks (ms)=14448
+		Total vcore-milliseconds taken by all map tasks=6760
+		Total vcore-milliseconds taken by all reduce tasks=14448
+		Total megabyte-milliseconds taken by all map tasks=10383360
+		Total megabyte-milliseconds taken by all reduce tasks=44384256
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=499
+		CPU time spent (ms)=5290
+		Physical memory (bytes) snapshot=1755635712
+		Virtual memory (bytes) snapshot=17231888384
+		Total committed heap usage (bytes)=1795162112
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:18:33,428 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:18:33,473 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:18:33,529 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:18:33,750 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:18:33,847 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:18:33,916 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:18:33,943 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0015
+2020-12-13 17:18:33,962 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0015
+2020-12-13 17:18:33,966 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0015/
+2020-12-13 17:18:33,966 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0015
+2020-12-13 17:18:42,050 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0015 running in uber mode : false
+2020-12-13 17:18:42,050 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:18:51,243 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:18:58,269 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:18:58,274 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0015 completed successfully
+2020-12-13 17:18:58,298 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=313776
+		Total time spent by all reduces in occupied slots (ms)=1396608
+		Total time spent by all map tasks (ms)=6537
+		Total time spent by all reduce tasks (ms)=14548
+		Total vcore-milliseconds taken by all map tasks=6537
+		Total vcore-milliseconds taken by all reduce tasks=14548
+		Total megabyte-milliseconds taken by all map tasks=10040832
+		Total megabyte-milliseconds taken by all reduce tasks=44691456
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=511
+		CPU time spent (ms)=6370
+		Physical memory (bytes) snapshot=1961541632
+		Virtual memory (bytes) snapshot=17235775488
+		Total committed heap usage (bytes)=2016411648
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:18:58,390 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:18:58,421 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:18:58,467 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:18:58,675 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:18:58,751 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:18:58,810 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:18:58,839 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0016
+2020-12-13 17:18:59,064 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0016
+2020-12-13 17:18:59,067 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0016/
+2020-12-13 17:18:59,067 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0016
+2020-12-13 17:19:07,128 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0016 running in uber mode : false
+2020-12-13 17:19:07,128 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:19:16,165 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:19:24,192 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:19:25,200 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0016 completed successfully
+2020-12-13 17:19:25,227 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=335664
+		Total time spent by all reduces in occupied slots (ms)=1485312
+		Total time spent by all map tasks (ms)=6993
+		Total time spent by all reduce tasks (ms)=15472
+		Total vcore-milliseconds taken by all map tasks=6993
+		Total vcore-milliseconds taken by all reduce tasks=15472
+		Total megabyte-milliseconds taken by all map tasks=10741248
+		Total megabyte-milliseconds taken by all reduce tasks=47529984
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=546
+		CPU time spent (ms)=7680
+		Physical memory (bytes) snapshot=1764700160
+		Virtual memory (bytes) snapshot=17234886656
+		Total committed heap usage (bytes)=1804075008
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:19:25,340 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:19:25,384 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:19:25,415 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:19:25,639 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:19:25,705 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:19:25,766 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:19:25,787 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0017
+2020-12-13 17:19:25,800 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0017
+2020-12-13 17:19:25,807 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0017/
+2020-12-13 17:19:25,807 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0017
+2020-12-13 17:19:33,868 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0017 running in uber mode : false
+2020-12-13 17:19:33,868 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:19:42,907 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:19:50,932 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:19:50,940 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0017 completed successfully
+2020-12-13 17:19:50,966 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=326448
+		Total time spent by all reduces in occupied slots (ms)=1404576
+		Total time spent by all map tasks (ms)=6801
+		Total time spent by all reduce tasks (ms)=14631
+		Total vcore-milliseconds taken by all map tasks=6801
+		Total vcore-milliseconds taken by all reduce tasks=14631
+		Total megabyte-milliseconds taken by all map tasks=10446336
+		Total megabyte-milliseconds taken by all reduce tasks=44946432
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=550
+		CPU time spent (ms)=6510
+		Physical memory (bytes) snapshot=1760284672
+		Virtual memory (bytes) snapshot=17246502912
+		Total committed heap usage (bytes)=1789919232
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:19:51,059 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:19:51,130 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:19:51,238 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:19:51,542 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:19:51,695 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:19:51,758 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:19:51,825 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0018
+2020-12-13 17:19:51,845 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0018
+2020-12-13 17:19:51,849 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0018/
+2020-12-13 17:19:51,849 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0018
+2020-12-13 17:19:59,906 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0018 running in uber mode : false
+2020-12-13 17:19:59,906 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:20:08,942 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:20:16,972 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:20:17,980 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0018 completed successfully
+2020-12-13 17:20:18,005 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=328896
+		Total time spent by all reduces in occupied slots (ms)=1447008
+		Total time spent by all map tasks (ms)=6852
+		Total time spent by all reduce tasks (ms)=15073
+		Total vcore-milliseconds taken by all map tasks=6852
+		Total vcore-milliseconds taken by all reduce tasks=15073
+		Total megabyte-milliseconds taken by all map tasks=10524672
+		Total megabyte-milliseconds taken by all reduce tasks=46304256
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=527
+		CPU time spent (ms)=7640
+		Physical memory (bytes) snapshot=1856876544
+		Virtual memory (bytes) snapshot=17246760960
+		Total committed heap usage (bytes)=1887961088
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:20:18,087 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:20:18,127 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:20:18,688 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:20:18,918 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-56-59.ec2.internal/172.31.56.59:8032
+2020-12-13 17:20:18,987 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 17:20:19,051 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 17:20:19,074 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607879438309_0019
+2020-12-13 17:20:19,092 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607879438309_0019
+2020-12-13 17:20:19,094 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-56-59.ec2.internal:20888/proxy/application_1607879438309_0019/
+2020-12-13 17:20:19,094 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607879438309_0019
+2020-12-13 17:20:27,198 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0019 running in uber mode : false
+2020-12-13 17:20:27,199 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 17:20:36,239 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 17:20:44,269 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2020-12-13 17:20:45,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 17:20:45,278 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607879438309_0019 completed successfully
+2020-12-13 17:20:45,306 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 54
+	File System Counters
+		FILE: Number of bytes read=135
+		FILE: Number of bytes written=677309
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=104
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=6990121
+		S3: Number of bytes written=94
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=332832
+		Total time spent by all reduces in occupied slots (ms)=1411488
+		Total time spent by all map tasks (ms)=6934
+		Total time spent by all reduce tasks (ms)=14703
+		Total vcore-milliseconds taken by all map tasks=6934
+		Total vcore-milliseconds taken by all reduce tasks=14703
+		Total megabyte-milliseconds taken by all map tasks=10650624
+		Total megabyte-milliseconds taken by all reduce tasks=45167616
+	Map-Reduce Framework
+		Map input records=500000
+		Map output records=500000
+		Map output bytes=12000000
+		Map output materialized bytes=123
+		Input split bytes=104
+		Combine input records=500000
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=123
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=536
+		CPU time spent (ms)=6610
+		Physical memory (bytes) snapshot=1737707520
+		Virtual memory (bytes) snapshot=17229611008
+		Total committed heap usage (bytes)=1794113536
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6990121
+	File Output Format Counters 
+		Bytes Written=94
+2020-12-13 17:20:45,383 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00000' for reading
+2020-12-13 17:20:45,437 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00001' for reading
+2020-12-13 17:20:45,473 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://arjun-input-data/output/part-r-00002' for reading
+2020-12-13 17:20:45,717 INFO com.amazon.ws.emr.hadoop.fs.s3n.MultipartUploadOutputStream (main): close closed:false s3://arjun-input-data/output/ClusterValues.txt

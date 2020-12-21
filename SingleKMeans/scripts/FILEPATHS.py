@@ -1,0 +1,8 @@
+SOURCE_IMAGE = '../input/source_img.jpg'
+DATA_GENERATION_FOLDER = '../input/'
+GENERATED_DATA = DATA_GENERATION_FOLDER+'dataset.txt'
+GENERATED_CLUSTERS = DATA_GENERATION_FOLDER+'ClusterValues.txt'
+OUTPUT_FOLDER = '../output/'
+RESULT_FOLDER = '../results/'
+FINAL_CLUSTERS = OUTPUT_FOLDER+'ClusterValues.txt'
+DESTINATION_IMAGE = RESULT_FOLDER+'destination_img.jpg'

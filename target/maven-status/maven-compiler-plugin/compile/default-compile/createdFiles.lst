@@ -1,0 +1,10 @@
+KMeans_MR/DataRow.class
+KMeans_MR/KMeansReducer.class
+KMeans_MR/KMeans.class
+KMeans_MR/KMeansParallelMapper.class
+KMeans_MR/ParallelKeys.class
+KMeans_MR/KMeansMapper.class
+KMeans_MR/KMeansParallelCombiner.class
+KMeans_MR/KMeansCombiner.class
+KMeans_MR/KMeansParallelReducer.class
+KMeans_MR/KMeansParallel.class
