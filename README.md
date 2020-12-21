@@ -1,5 +1,4 @@
-# CS6240 Project
-Fall 2020
+# Image Segmentation Using K-Means Clustering in Map Reduce
 
 Code authors
 -----------
